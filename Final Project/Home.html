@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      /* global rules */
+
+      
+      html {
+        scroll-behavior: smooth;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "work sans", sans-serif;
+      }
+
+      .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+      }
+
+      /* end global rules */
+      /* heder start */
+      header ul li a {
+        color: white;
+        text-decoration: none;
+        left: 0px;
+      }
+      header ul {
+        display: flex;
+        padding: 0px;
+        min-width: 120px;
+        margin: 0;
+      }
+      header .container {
+        background-color: black;
+        margin: 0;
+        width: 100%;
+        padding: 0px 60px;
+      }
+
+      header ul li {
+        list-style: none;
+        margin: 3px;
+        padding: 10px;
+      }
+      header .nave {
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      header .name {
+        padding: 10px 10px 10px 0px;
+        color: white;
+      }
+      header .name span.T {
+        border: white solid 1px;
+        background-color: #9e9e9e;
+        padding: 2px 4px;
+      }
+      header .name span.complet_name {
+        color: orange;
+      }
+      header li:hover {
+        background-color: orange;
+      }
+      /* heder end */
+
+      /*  Wed_first section */
+      .Wed_first {
+        background-image: url(web88.jpg);
+        min-width: 100%;
+         width: auto; 
+        min-height: 600px;
+        background-size: cover;
+        position: relative;
+      }
+
+      
+
+      .Wed_first .in_side {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        text-align: center;
+      }
+      .Wed_first .in_side h1 {
+        margin: 0;
+        color: #8f3b00e8;
+        font-size: 50px;
+        font-weight: bold;
+      }
+      .Wed_first .in_side span {
+        color: #ff9042;
+      }
+      .Wed_first .in_side div {
+        overflow: hidden;
+        width: 620px;
+        height: 40px;
+      }
+      .Wed_first .in_side p {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.8;
+        color: #bb4e00;
+        overflow: hidden;
+        width: 620px;
+        height: 40px;
+        position: relative;
+        left: 0;
+      }
+
+
+
+      /* start ABOUTUS */
+      .ABOUTUS .container .side-about {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .ABOUTUS .container .side-about .img-about {
+        width: 300px;
+        height: 330px;
+        position: relative;
+      }
+
+      .ABOUTUS .container .side-about div {
+        width: 600px;
+      }
+      .ABOUTUS .container .side-about div h2 {
+        color: orange;
+      }
+      .ABOUTUS .container .side-about div span {
+        width: 25px;
+        height: 2px;
+        margin-bottom: 5px;
+        background-color: black;
+      }
+      .ABOUTUS .container .side-about div h4 {
+        font-size: 18px;
+        line-height: 1.7rem;
+        color: #2c4755;
+        font-weight: 800;
+      }
+
+
+
+      /* Start Skills */
+      .main_skills {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        position: relative;
+        background-color: #eee;
+      }
+      .main_skills .container .tex {
+        width: 50%;
+      }
+      .main_skills .container .tex h2 {
+        color: orange;
+      }
+      .main_skills .container .tex p {
+        padding-top: 10px;
+      }
+      .main_skills .container .tex .butt {
+        display: block;
+        width: 110px;
+        border: green solid 2px;
+        color: green;
+        padding: 5px;
+        margin-top: 10px;
+        text-align: center;
+      }
+      .main_skills .container .tex .butt a {
+        color: green;
+        text-decoration: none;
+      }
+      .main_skills .container .tex .butt:hover {
+        background-color: green;
+        cursor: pointer;
+      }
+      .main_skills .container .tex .butt a:hover {
+        color: white;
+      }
+      .main_skills .container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .main_skills .skills {
+        flex: 1;
+      }
+      .main_skills .skill {
+        margin: 15px 0px;
+      }
+      .main_skills .skill h3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .main_skills .skill h3 span {
+        font-size: 12px;
+        border: 1px solid #ccc;
+        padding: 3px 5px;
+        border-radius: 4px;
+        color: orange;
+      }
+      .main_skills .skill .the-progress {
+        height: 30px;
+        background-color: white;
+        position: relative;
+      }
+      .main_skills .skill .the-progress span {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background-color: orange;
+        transition: 3s;
+      }
+
+      /* End Skills */
+
+      /* start PROJECT section */
+
+      .PROJECT span {
+        content: " ";
+        width: 100px;
+        height: 2px;
+        background-color: orange;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .PROJECT h2 {
+        text-align: center;
+        padding: 10px;
+        color: orange;
+        position: relative;
+      }
+      .PROJECT .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 15px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+      .PROJECT .PRO1 {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 210px;
+        border: 2px #00000045 solid;
+      }
+
+      .PRO1:hover img {
+        cursor: pointer;
+        opacity: 0.1;
+        transition: 0.6s;
+      }
+
+      .PRO1 div {
+        background-color: coral;
+        width: 100%;
+        height: 100%;
+        z-index: 3;
+        position: absolute;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .PRO1 div p {
+        color: white;
+        font-size: 25px;
+      }
+      .PRO1 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+        left: 0;
+      }
+
+      /* end PROJECT */
+
+      /* start CUSTOMERS */
+      .container .cost .p-1,
+      .co-2,
+      .co-2 {
+        width: 360px;
+        height: 439px;
+        text-align: center;
+      }
+
+      .container .cost {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 80px;
+      }
+      .container .cost div img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: orange solid 1px;
+        opacity: 0.4;
+      }
+      .container .cost div img:hover {
+        opacity: 1;
+      }
+      .container .cost div div h5 {
+        font-size: 18px;
+        color: #8b268b;
+        margin: 0px;
+        padding: 10px;
+      }
+      .container .cost div div p {
+        font-size: 14px;
+      }
+      .container .cost div div {
+        padding: 25px;
+      }
+      .CUSTOMERS {
+        background-color: #fafafa;
+      }
+      .CUSTOMERS span {
+        content: " ";
+        width: 150px;
+        height: 2px;
+        background-color: orange;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .CUSTOMERS h2 {
+        text-align: center;
+        padding: 10px;
+        color: orange;
+        position: relative;
+      }
+      .CUSTOMERS .container .ser-heading {
+        color: #ebeced;
+      }
+
+      /* end CUSTOMERS */
+
+      /* start contact */
+      .contact {
+        background-image: url(map3.jpg);
+        min-height: 625px;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+      }
+      .contact .container h2 span {
+        content: " ";
+        width: 150px;
+        height: 2px;
+        background-color: orange;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .contact .container h2 {
+        text-align: center;
+        padding: 10px;
+        color: orange;
+        position: relative;
+        margin-bottom: 230px;
+      }
+      .contact .container form {
+        display: flex;
+        justify-content: space-between;
+      }
+      .contact .container form .left {
+        width: 50%;
+        height: 100%;
+      }
+      .contact .container form .left input {
+        display: block;
+        padding: 10px;
+        margin: 10px 10px 10px 0px;
+        width: 100%;
+        background-color: #eee;
+        border: none;
+      }
+      .contact .container form .left input.submit {
+        color: white;
+        background-color: orange;
+        border: none;
+        cursor: pointer;
+      }
+      .contact .container form .right {
+        width: 40%;
+      }
+      .contact .container form .right textarea {
+        width: 100%;
+        margin: 10px;
+        height: 90%;
+        background-color: #eee;
+      }
+      
+
+      /* end */
+      footer {
+        background-color: #08090ac7;
+        text-align: center;
+      }
+      footer p {
+        padding: 20px;
+        font-size: 15px;
+        color: #fff;
+        font-weight: 800;
+        margin: 0px;
+      }
+      footer span {
+        color: #10cab7;
+      }
+
+      .scroll-to-top {
+        width: 35px;
+        height: 35px;
+        position: fixed;
+        right: -100px;
+        bottom: 25px;
+        z-index: 9999;
+      }
+      .scroll-to-top span {
+        background-color: black;
+        transition: all ease 0.3s;
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        text-align: center;
+        cursor: pointer;
+        position: relative;
+      }
+      .show {
+        right: 30px;
+      }
+      .scroll-to-top span:before {
+        content: "top";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      #MyBtn{
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 99;
+      width: 50px;
+      height: 50px;
+      border: none;
+      outline: none;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      font-size: 20px;
+    }
+
+    #MyBtn:hover{
+      transition: 0.3s;
+      opacity: 0.8;
+    }
+
+    #div5{
+      margin-top: 0;
+      margin-left: 4em;
+      background-color: #F0F8FF;
+      margin-right: 2em;
+    }
+
+    #h4{
+      color: orange;
+    }
+
+    #p4{
+      font-size: 20px;
+    }
+
+    #bu1{
+      color: green;
+      height: 65px;
+      width: 95px;
+      border-style: solid;
+      border-color: green;
+    }
+    #a1{
+      color: green;
+    }
+    #a1{
+      text-decoration: none;
+    }
+    #a1:hover{
+      color: white;
+      //*background-color: green;*/
+    }
+
+    #bu1:hover{
+      background-color: green;
+    }
+
+    #h5{
+      color: orange;
+      text-align: center;
+    }
+    .chart {
+        background: #F0F8FF;
+        justify-content: flex-start;
+        border-radius: 100px;
+        align-items: center;
+        position: relative;
+        padding: 0 5px;
+        display: flex;
+        height: 40px;
+        width: 500px;
+
+        margin: 15px;
+    }
+      .chart span {  
+          margin-left: 5px;
+          color: #fff;
+          font-weight: bolder;
+      }
+
+    .bar {
+        animation: load 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: orange;
+        height: 30px;
+        width: 0;
+    } 
+
+    @keyframes load {
+        0% {
+            width: 0;
+        }
+        100% {
+           width: 68%;
+        }
+    }
+    .bar2 {
+        animation: loada 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: orange;
+        height: 30px;
+        width: 0;
+    } 
+
+    @keyframes loada {
+        0% {
+            width: 0;
+        }
+        100% {
+           width: 35%;
+        }
+    }
+    .bar3 {
+        animation: loadb 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: orange;
+        height: 30px;
+        width: 0;
+    } 
+
+    @keyframes loadb {
+        0% {
+            width: 0;
+        }
+        100% {
+           width: 80%;
+        }
+    }
+
+    #ul101 ul li {
+      list-style: none;
+    }
+
+
+
+    #div6 , #div11 {
+      float: left;
+    }
+    #div6{
+      width: 50%;}
+      #div11{
+        width: 50%;}
+
+
+
+    #h110{
+      color: orange;
+      text-align: center;
+    }
+
+    </style>
+    <meta charset="UTF-8" />
+    <title>final_project</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="css/T_CSS.css" />
+  </head>
+
+  <body>
+    
+    <section class="Wed_first" id="top">
+      <div class="container">
+        <div class="in_side">
+          <h1>I am a <span>Software</span> Developer</h1>
+          <p id="demo"></p>
+        </div>
+      </div>
+    </section>
+   
+    <!-- Nav -->
+    <header>
+      <div class="container">
+        <div class="nave">
+          <div class="name">
+            <span class="T">D</span> iyaa<span class="complet_name">
+              Al-Mahrook
+            </span>
+          </div>
+          <ul>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#div5">SKILLS</a></li>
+            <li><a href="#project">PROJECT</a></li>
+            <li><a href="#CUSTOMERS">CUSTOMERS</a></li>
+            <li><a href="#CONTACT">CONTACT US</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    
+
+    <!--ABOUT US -->
+    <section class="ABOUTUS" id="about">
+      <div class="container">
+        <section section class="side-about">
+          <div>
+            <h2>ABOUT US</h2>
+            <h4>
+              Web developer is a programmer who specializes in, or is specifically engaged in, the development of World Wide Web applications using a client–server model.The applications typically use HTML, CSS and JavaScript in the client, PHP, ASP.NET (C#), Python, Node.js, Go or Java in the server, and http for communications between client and server. A web content management system is often used to develop and maintain web applications.
+            </h4>
+          </div>
+          <div class="img-about">
+            <img src="web.jpg" alt="" / width="400" height="230">
+          </div>
+        </section>
+      </div>
+    </section>
+   <button id="MyBtn">Top</button>
+    <!-- Skills -->
+   <div id ="div5">
+      <h1 id="h4">My Skills</h1>
+      <div id="div6">
+      <p id="p4">I am very good at creating web pages and I have previous experience in this field because I studied at the Islamic University in Gaza . <br>
+      And this field requires that you be strong enough for the different sections of web programming (html, css, javascript). Thanks to God, I am strong in these areas</p>
+      <button id="bu1"><a id="a1" href="https://mail.google.com/mail/u/0/">Contact Me</a></button>
+      </div>
+      <div id="div11">
+            <div id="div11">
+      <div class="chart">
+        <p>HTML</p>
+          <div class="bar"></div>
+        </div>
+        <div class="chart">
+          <p>CSS&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <div class="bar2"></div>
+        </div>
+          <div class="chart">
+          <p>JS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <div class="bar3"></div>
+        </div>
+    
+      
+</div>
+      </div>
+    </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- Our Project -->
+    <section class="PROJECT" id="project">
+      <h2>
+        Our Project
+        <span></span>
+      </h2>
+      <div class="container">
+        <div class="PRO1">
+          <img src="web.jpg" alt="" />
+          <div><p> First System</p></div>
+        </div>
+        <div class="PRO1">
+          <img src="web.jpg" alt="" />
+          <div><p>Requirement System</p></div>
+        </div>
+        <div class="PRO1">
+          <img src="web.jpg" alt="" />
+          <div><p>Files System</p></div>
+        </div>
+        <div class="PRO1">
+          <img src="web.jpg" alt="" />
+          <div><p>Codes System</p></div>
+        </div>
+        <div class="PRO1">
+          <img src="web.jpg" alt="" />
+          <div><p>Test System</p></div>
+        </div>
+        <div class="PRO1">
+          <img src="web.jpg" alt="" />
+          <div><p>Final System</p></div>
+        </div>
+      </div>
+    </section>
+   
+<br><br><br><br><br><br><br>
+    <!-- Customer -->
+    <section class="CUSTOMERS" id="CUSTOMERS">
+      <div class="container">
+        <h2>
+          Our Customer
+          <span></span>
+        </h2>
+        <section class="cost">
+          <div class="p-1">
+            <img src="user.png" alt="" />
+            <div>
+              <h5>Tamer Abo Rass</h5>
+              <p>
+                I'm A Teacher Data Base 1 ( lab ) In Islamic University Of GAZA and I'm spit out In This University
+              </p>
+            </div>
+          </div>
+          <div class="co-2">
+            <img src="user2.jpg" alt="" />
+            <div>
+              <h5>Omar Abo Rass</h5>
+              <p>
+                I'm A Teacher Web Programming 1 ( lab ) In Islamic University Of GAZA and I'm spit out In This University
+              </p>
+            </div>
+          </div>
+          <div class="co-3">
+            <img src="user3.jpg" alt="" />
+            <div>
+              <h5>Tamer Abo Amra</h5>
+              <p>
+                I'm A Teacher Data Structure ( lab ) In Islamic <br>&nbsp;&nbsp;&nbsp;  University Of GAZA and I'm spit out In <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This University
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+   
+<br><br>
+    <!-- Contact  -->
+    <section class="contact" id="CONTACT">
+      <div class="container">
+        <h2>
+          contact
+          <span></span>
+        </h2>
+        <br><br><br><br><br><br>
+        <form action="">
+          <div class="left">
+            <input
+              class="main-input"
+              type="text"
+              name="name"
+              placeholder="YOUR NAME"
+            />
+            <input
+              class="main-input"
+              type="text"
+              name="name"
+              placeholder="YOUR EMAIL"
+            />
+            <input
+              class="main-input"
+              type="text"
+              name="name"
+              placeholder="YOUR PHONE"
+            />
+            <input
+              class="main-input"
+              type="text"
+              name="mail"
+              placeholder="YOUR SUBJECT"
+            />
+            <input type="submit" value="contact me" class="submit" />
+          </div>
+          <div class="right">
+            <textarea
+              class="main-input"
+              name="message"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- end -->
+    <!-- start footer -->
+    <footer>
+      <p>CopyRight © 2021-<span>ENG:</span>Diyaa Al Mahrook</p>
+      <div>
+        <img src="Facebook.png" alt="" />
+        <img src="Google_.png" alt="" />
+        <img src="LinkedIn.png" alt="" />
+        <img src="Pinterest.png" alt="" />
+        <img src="YouTube.png" alt="" />
+        <img src="twitter.png" alt="" />
+      </div>
+    </footer>
+
+    <div class="scroll-to-top" style="display: block" id="top">
+      <a href="#top"><span></span></a>
+    </div>
+
+    <!--  jS -->
+
+    <script>
+      //   change img
+      function changeBg() {
+        let images = [
+          'url("web88.jpg")',
+          'url("web99.jpg")',
+          'url("web1111.jpg")',
+        ];
+        let section = document.querySelector(".Wed_first");
+        let bg = images[Math.floor(Math.random() * images.length)];
+        section.style.background = bg;
+      }
+      setInterval(changeBg, 1500);
+
+     
+
+      
+      // text
+      function vaaaaa() {
+        let c = document.getElementById("demo").innerHTML.length;
+        let text = "I'm Student IN Islamic University Of Gaza";
+        let v = "";
+        v += text.charAt(c);
+        console.log(v);
+        document.getElementById("demo").innerHTML += v;
+        console.log(c);
+        console.log(text.length);
+        if (text.length == c) {
+          clearInterval(vv);
+        }
+      }
+      let vv = setInterval(vaaaaa, 100);
+      // inma
+      let section = document.querySelector(".main_skills");
+      let spans = document.querySelectorAll(
+        ".main_skills .skills .skill .the-progress span"
+      );
+
+      window.onscroll = function () {
+        if (window.scrollY >= section.offsetTop) {
+          spans.forEach((span) => {
+            span.style.width = span.dataset.width;
+          });
+        }
+      };
+
+      // buttom
+       let myButton = document.getElementById('MyBtn');
+    window.onscroll = function (){
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+        myButton.style.display = 'block';
+      }else{
+        myButton.style.display = 'none';
+      }
+    }
+    myButton.addEventListener('click' , () =>{
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    })
+    </script>
+  </body>
+</html>

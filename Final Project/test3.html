@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.web_first{
+			background-image: url(web88.jpg);
+			min-width: 100%;
+			width: auto;
+			min-height: 600px;
+			position: relative;
+		}
+
+		.web_first .in_side{
+			position: absolute;
+			left: 50%;
+			transform: translate(-50% , -50%);
+			top: 50%;
+			text-align: center;
+		}
+
+		.web_first .in_side h1{
+			margin: 0;
+			color: yellowgreen;
+			font-size: 50px;
+			font-weight: bold;	
+		}
+
+		.web_first .in_side div{
+			overflow: hidden;
+			width: 620px;
+			height: 40px;
+		}
+
+		.web_first .in_side span{
+			color: lightyellow;
+		}
+
+		.web_first .in_side p{
+			font-size: 20px;
+			font-weight: bold;
+			line-height: 1.8;
+			overflow: hidden;
+			color: yellowgreen;
+			width: 620px;
+			height: 40px;
+			position: relative;
+			left: 0;
+		}
+
+	.PRO1:hover img {
+        cursor: pointer;
+        opacity: 0.1;
+        transition: 0.6s;
+      }
+
+      .PRO1 div {
+        background-color: coral;
+        width: 100%;
+        height: 100%;
+        z-index: 3;
+        position: absolute;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .PRO1 div p {
+        color: white;
+        font-size: 25px;
+      }
+      .PRO1 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+        left: 0;
+      }
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<section class="web_first">
+		<div class="container">
+			<div class="in_side">
+				<h1>I'm A <span>Software </span>Developer</h1>
+				<p id="demo"></p>
+			</div>
+		</div>
+	</section>
+
+	<div class="PRO1">
+          <img src="web.jpg" alt="" />
+          <div><p> First System</p></div>
+        </div>
+
+	<script type="text/javascript">
+
+		
+		function changeimg() {
+			let images = [
+				'url("web88.jpg")' ,
+				'url("web99.jpg")' ,
+				'url("web1111.jpg")' ,
+			];
+
+			let section = document.querySelector(".web_first");
+			let bg = images[Math.floor(Math.random() * images.length)];
+			section.style.background = bg;
+		}
+		setInterval(changeimg , 1500);
+
+
+		/*function vaaaaa() {
+        let c = document.getElementById("demo").innerHTML.length;
+        let text = "I'm Student IN Islamic University Of Gaza";
+        let v = "";
+        v += text.charAt(c);
+        console.log(v);
+        document.getElementById("demo").innerHTML += v;
+        console.log(c);
+        console.log(text.length);
+        if (text.length == c) {
+          clearInterval(vv);
+        }
+      }
+      let vv = setInterval(vaaaaa, 100);*/
+		function va(){
+			let c = document.getElementById("demo").innerHTML.length ;
+			let text = "I'm A Student In Islamic University Of Gaza";
+			let v = '';
+			v += text.charAt(c);
+			console.log(v);
+			document.getElementById("demo").innerHTML += v;
+			console.log(c);
+			console.log(text,length);
+			if (text.length == c) {
+				clearInterval(vv);
+			}
+		}
+		let vv = setInterval(va , 100);
+	</script>
+</body>
+</html>

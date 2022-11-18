@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		p {
+			font-weight: bold;
+			line-height: 1.8;
+			overflow: hidden;
+		}
+
+		.project img:hover{
+			cursor: pointer;
+			opacity: 0.1;
+			transition: 0.6s;
+		}
+
+		.project div{
+			background-color: coral;
+			width: 200px;
+			height: 200px;
+			z-index: 3;
+			position: absolute;
+			align-content: center;
+			justify-content: center;
+			display: flex;
+		}
+		.project div p {
+			color: white;
+			font-size: 20px;
+		}
+		.project img{
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			z-index: 5;
+		}
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<p id="demo"></p>
+	<div class="project">
+		<img src="web.jpg">
+		<div><p>120200200</p></div>
+	</div>
+
+	<script type="text/javascript">
+		function vaaaaa() {
+			let c = document.getElementById("demo").innerHTML.length;
+			let text = "My Name Is Diyaa Al Mahrook .";
+			let v = "";
+			v += text.charAt(c);
+			document.getElementById("demo").innerHTML += v;
+			if (text.length == c){
+				clearInterval(vv);
+			}
+		}
+		let vv = setInterval(vaaaaa , 100);
+	</script>
+</body>
+</html>
